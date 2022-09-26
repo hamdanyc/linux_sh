@@ -1,0 +1,163 @@
+s/^ //g
+s/ '\+//g
+s/'K/K/g
+s/'NG/NG/g
+s/,[[:blank:]]\+/,/g
+s/[ ]\+/ /g 
+s/[ ],/,/g 
+s/\/ /\//g 
+s/ \//\//g 
+s/"//g
+s/ \. //g
+s/\. / /g
+s/\.//g
+s/[a-z]/\U&/g 
+s/SEK ANIKA JURUSAN/SK ANIKA JURUSAN/g
+s/SEKOLAH KEBANGSAAN/SK /g
+s/SEK\. KEBANGSAAN/SK/g
+s/SEK RENDAH KEBANGSAAN/SK /g
+s/SEKOLAH /SEK /g
+s/SEKOLAH JENIS KEBANGSAAN/SJK /g
+s/SEK JENIS KEBANGSAAN (CINA)/SJK(C)/g
+s/SEK JENIS KEBANGSAAN (TAMIL)/SJK(T)/g
+s/KG\+/KG. /g
+s/SG\+/SG. /g
+s/BT\+/BT. /g
+s/BKT\+/BKT. /g
+s/SEKREND\+/SK /g
+s/SEKMEN\+/SMK /g
+s/SM KEB/SMK/g
+s/SM REN/SMR/g
+s/SMREN/SMR/g
+s/KEBANGSAAN (TAMIL)/SJK(T)/g
+s/KEBANGSAAN (CINA)/SJK(C)/g
+s/SK (TAMIL)/SJK(T)/g
+s/SK (CINA)/SJK(C)/g
+s/SJKC/SJK(C)/g
+s/SJK(CHINA)/SJK(C)/g
+s/SJK(CINA)/SJK(C)/g
+s/SMJKC/SMJK(C)/g 
+s/SJKT/SJK(T)/g
+s/SJK(TAMIL)/SJK(T)/g
+s/SM BERASRAMA PENUH/SMBP /g
+s/SMK SAINS/SMS/g
+s/SM SAINS/SMS/g 
+s/SMSAINS/SMS/g 
+s/SEKOLAH SUKAN/SEK SUKAN/g 
+s/SEKOLAH SENI/SEK SENI/g
+s/SEK\.MEN/SM /g
+s/SM REN/SMR /g
+s/SM KEB\./SMK /g
+s/SEK\. MEN\. /SMK /g
+s/SEK\. KEB\. /SK /g
+s/SEK\.KEB\.KG/SK KG\./g
+s/SEK MENENGA/SMK /g
+s/(\. SK) \./SK /g
+s/SEK MEN/SM /g
+s/&.//g
+s/SM & SEK KBG\./SMK /g
+s/SM\.& SR\./SMK/g
+s/SM\./SM /g
+s/ SK/SK /g
+s/\.SK/SK /g
+s/VAKASIONAL/VOKASIONAL/g
+s/TEKNIK/SMT/g
+s/SM TEKNIK/SMT/g
+s/SM UGAMA/SMA/g
+s/SM AGAMA/SMA/g
+s/LEFTADNAN SGRAMAL LUAR/LEFTENAN ADNAN/g
+s/SM RENDAH/SMR/g
+s/SEK KEB/SK/g
+s/SEK\. REN\. KEB\./SK /g
+s/SEK\. KEB\./SK /g
+s/SEK\.KEB\./SK /g
+s/TAPAK//g
+s/(TAM)BAHAN//g
+s/SMKH/SM PENKAN KHAS/g
+s/SKKH/SK PENKAN KHAS/g
+s/SEK\.MEN\./SMK /g
+s/SEKMENKEB/SMK /g
+s/SEKMEN/SMK /g
+s/SEKMENsains/SMs /g
+s/SMKKEB\./SMK /g
+s/SEKKEB/SK /g
+s/SMK KEB\./SMK /g
+s/SK/SK /g
+s/SMK/SMK /g
+s/SEK\. MEN\. REN\./SMR /g 
+s/SEK\. MEN\. /SM /g
+s/SEK\. MEN\. SAINS/SMS /g
+s/SEK MEN SAINS/SMS /g 
+s/SEKOLAH SENI/SEK SENI/g 
+s/SEKOLAH MENENGAH SAINS/SMS /g
+s/SEK MENENGAH SAINS/SMS /g
+s/SM SAINS/SMS /g
+s/SMS SAINS/SMS /g
+s/SMS SMS/SMS /g
+s/SEKOLAH MENENGAH TEKNIK/SM TEK /g 
+s/SEKOLAH MENENGAH KEBANGSAAN/SMK /g
+s/SEK MENENGAH KEBANGSAAN/SMK /g 
+s/PEJABAT PENDIDIKAN DAERAH/PPD /g
+s/PUSAT KEGIATAN GURU/PKG/g
+s/KOMPLEKS PENDIDIKAN/KPD /g
+s/SM REN/SMR /g
+s/SM& SR/SMK /g
+s/SK\/SM/SK & SMK/g 
+s/KOMPLEKS PENDIDIKAN DAERAH/KPD /g 
+s/TAMAN/TMN/g
+s/PUSAT GENIUS ANAK NEGARA/PGAN/g 
+s/KOMP\. PEND\. DAERAH/KPD/g
+s/DI//g
+s/DLM//g
+s/BATU/BT\./g
+s/BANDAR/BDR\./g
+s/BATANG/BTG\./g
+s/(BARU)/BARU/g
+s/(FELDA)/FELDA/g
+s/(FELDA )/FELDA/g
+s/(LKTP)/LKTP/g
+s/(JHEOA)/JHEOA/g
+s/TINGKATAN ENAM/T6/g
+s/TINGKATAN 6/T6/g
+s/SUNGAI/SG\./g
+s/TANJUNG/TG\./g
+s/TANJONG/TG\./g
+s/TELOK/TELUK/g
+s/KINABTG\.AN/KINABATANGAN/g
+s/KAMPONG/KG\./g
+s/KAMPUNG/KG\./g
+s/KUBANG/KBG\./g
+s/LADANG/LDG\./g
+s/LAKI2/(L)/g
+s/LAKI-LAKI/(L)/g
+s/PEREMPUAN/(P)/g
+s/RAJA (P)/RAJA PEREMPUAN/g
+s/SEBERANG/SBG\./g
+s/SIMPANG/SPG\./g
+s/PENGKALAN/PKLN\./g
+s/PANGKALAN/PKLN\./g
+s/PADANG/PDG\./g
+s/BUKIT/BKT\./g
+s/JALAN/JLN\./g
+s/JLN\./JLN/g
+s/JLN/JLN\./g
+s/BARU//g
+s/DATO''''/DATO' /g
+s/DATO''/DATO' /g
+s/DATO /DATO' /g
+/SK SK\+/d
+/TUTUP/d
+s/^ //g
+s/ '\+//g
+s/'K/K/g
+s/'NG/NG/g
+s/,[[:blank:]]\+/,/g
+s/[ ]\+/ /g 
+s/[ ],/,/g 
+s/\/ /\//g 
+s/ \//\//g 
+s/"//g
+s/[a-z]/\U&/g 
+s/TAPAK//g
+s/TAMBAHAN//g
+s/TAMB//g
